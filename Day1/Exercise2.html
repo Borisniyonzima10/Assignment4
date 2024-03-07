@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     body{
+        font-family: Arial;
+        padding: 0%;
+        margin: 0%;
+        background-color: #f4f4f4;
+     }
+   p{ outline-style: dashed;
+    outline-color:blue ;
+
+   }
+   .p1{
+    outline-style: dashed;
+    outline-color:blue ;
+   }
+   .p2{
+    outline-style: groove;
+    outline-color: tomato;
+   }
+
+     header{
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding-top: 20px;
+     }
+
+     nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+
+     }
+
+     nav ul{
+        list-style-type: none;
+
+     }
+
+     nav ul li{
+        display: inline;
+        
+     }
+     
+     nav ul li a{
+        text-decoration-line: none;
+        color: #fff;
+        padding-left: 20px;
+       
+        
+     }
+     nav image{
+        max-height: 50;
+     }
+
+     main{
+        
+        margin-right: 100px;
+        margin-left: 90px;
+        
+     }
+
+     main h1{
+        text-align: center;
+     }
+footer{
+    background-color: #333;
+    padding:10px;
+    color: #fff;
+}
+main form{
+width: 500px;
+margin-top: 40px;
+}
+main{
+    background-image: url("image/aboutus.png" );
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding-top: 0p;
+}
+
+form label{
+    display: block;
+
+}
+
+
+input, textarea{
+    width: 100%;
+    height: 25px;
+}
+
+textarea{
+    height: 80px;
+    width: 60%;
+}
+input{
+    width: 100%;
+    height: 60%;
+}
+input [ type="radio"]{
+    display: flex;
+   
+}
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+
+
+        <h1>Welcome to Tech Hub</h1>
+        
+       
+        <nav>
+            <img src="image/Logo_Transparent.png" alt="Tech Hub Logo" srcset="" width="50px" height="50" >
+            <ul>
+                <li><a href="aboutus.html">About Us</a></li> 
+                <li><a href="services.html">Services</a></li> 
+                <li><a href="contact.html">Contact</a></li> 
+            </ul>
+
+
+        </nav>
+
+    </header>
+
+
+    <main>
+        <article>
+            <h1>About Us</h1>
+            <section>
+                <!-- <h4>Tech Hub VIPS</h4> -->
+                
+                <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab, numquam consequuntur fugit quae nesciunt corrupti deleniti explicabo asperiores esse, perferendis ex libero! Pariatur a nostrum incidunt distinctio ducimus. Facilis?Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Repellendus cum harum eius illo,
+                    voluptatum similique porro adipisci deleniti quos nemo sint! 
+                    Vitae soluta eaque nesciunt dolorum corporis voluptate possimus commodi! 
+                
+                </p>
+            </section>
+        </article>
+
+        <article>
+            <h1>Services</h1>
+            <section>
+                <p  class="p2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempora officia corrupti, atque facilis facere et placeat sapiente quae ipsam quaerat ducimus doloribus. Odit dolorum dolores nisi soluta corporis provident.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Excepturi corrupti ea praesentium tempore nostrum quidem 
+                    quisquam sint hic quo expedita provident exercitationem obcaecati modi, 
+                    doloribus earum dolores assumenda! Quos, architecto. 
+                </p>
+
+            </section>
+        </article>
+
+        <article>
+            <h1>Contacts</h1>
+        
+            <address>
+                <p>Kimisagara Youth Center</p>
+                <p>KN 183 <sup>st</sup></p>
+                <p>Kigali, Rwanda</p>
+            </address>
+            <section>
+<fieldset>
+    <caption>Query form</caption> 
+
+    <form action="#" method="post">
+        
+        <label for="name">1 <sup>st</sup> name:</label>
+        <input type="text" name="name" id="1sr_name ">
+        <label for="name">2 <sup>nd</sup> name:</label>
+        <input type="text" name="name" id="2nd_name ">
+
+        <label for="Email">Email:</label>
+        <input type="email" name="email" id="User Email">
+
+        <label for="Phone number">Phone:</label>
+        <input type="number" number="Phone" id="Phone number">
+        <label for="gender">Gender:</label> <br>
+        <label for="male">male:</label>
+        <input type="radio" name="gender" id="male" value="male">
+
+        <label for="female">female:</label>
+        <input type="radio" name="gender" id="female" value="female">
+    
+        <select>
+
+            <option value="Rwanda">Rwanda</option>
+            <option value="DRC">DRC</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+        </select>
+        <textarea name="sendQuery" id="sendQuery" placeholder="enter your sendQuery here?"></textarea>
+        <input type="submit" value="submit">
+
+    </form>
+</fieldset>
+    
+
+            </section>
+        </article>
+
+
+    </main>
+
+    <footer>
+
+<p>&COPY; 2024 love in Arts. All right reserved</p>
+
+    </footer>
+
+</body>
+
+</html>
